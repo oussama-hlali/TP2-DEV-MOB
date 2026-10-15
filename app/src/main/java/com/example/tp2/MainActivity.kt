@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
                     R.id.popup_exit -> {
                         Toast.makeText(this, "Popup Exit sélectionné", Toast.LENGTH_SHORT).show()
-                        finish()
+
                         true
                     }
 
