@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="menu_search">menu search</string>
+    <string name="exit">Exit</string>
+    <string name="ch1">ch1</string>
+    <string name="search">Search</string>
+    <string name="prenom">Écrire votre prénom</string>
+    <string name="nom">Écrire votre nom</string>
+    <string name="afficher_pop">Afficher Popup Menu</string>
+    <string name="couleur">Couleur</string>
+    <string name="red">Rouge</string>
+    <string name="bleue">Bleu</string>
+</resources>

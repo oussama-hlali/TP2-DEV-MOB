@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search"
+        android:icon="@drawable/search"/>
+
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/exit"
+        android:icon="@drawable/exit"/>
+
+    <item
+        android:id="@+id/menu_couleur"
+        android:title="@string/couleur">
+
+        <menu>
+            <group
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/menu_rouge"
+                    android:title="@string/red"
+                    android:checkable="true" />
+
+                <item
+                    android:id="@+id/menu_bleu"
+                    android:title="@string/bleue"
+                    android:checkable="true" />
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
